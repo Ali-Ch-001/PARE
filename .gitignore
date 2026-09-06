@@ -72,3 +72,7 @@ Credentials/
 *.log
 *.orig
 *.rej
+
+# === Promo Video ===
+promo-video-project/
+
