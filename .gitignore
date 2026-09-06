@@ -1,0 +1,74 @@
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# === Xcode / Build artifacts ===
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
+*.xccheckout
+*.xcresult
+*.xcscheme
+
+# === Xcode user & workspace state ===
+**/xcuserdata/
+**/*.xcuserdatad/
+**/*.xcuserstate
+xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+.idea/
+
+# === Pare project: per-user Xcode state (never commit) ===
+Pare.xcodeproj/xcuserdata/
+Pare.xcodeproj/project.xcworkspace/xcuserdata/
+Pare.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+Pare.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# === Swift Package Manager ===
+.build/
+.swiftpm/
+Package.resolved
+
+# === CocoaPods / Carthage (unused, but safe) ===
+Pods/
+Carthage/Build/
+*.podspec
+
+# === Python (ML tooling) ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# === Secrets & credentials ===
+*.env
+.env.*
+*.p12
+*.mobileprovision
+*.provisionprofile
+Secrets/
+Credentials/
+*.key
+*.pem
+
+# === Runtime data (generated, never committed) ===
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# === Logs & misc ===
+*.log
+*.orig
+*.rej
